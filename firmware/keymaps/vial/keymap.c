@@ -20,3 +20,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                             KC_TRNS, KC_TRNS, KC_TRNS,           KC_TRNS,  KC_TRNS,  KC_TRNS
     )
 };
+
+enum blender_keycode {
+    DOT = UC(0x002E),
+    COMMA = UC(0x002C)
+};

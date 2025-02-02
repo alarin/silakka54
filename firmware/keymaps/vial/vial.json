@@ -3,6 +3,19 @@
         "rows": 10,
         "cols": 6
     },
+    "customKeycodes": [
+	{
+	  "name": "Unitcode dot",
+	  "title": "UC(.)",
+	  "shortName": "DOT"
+	}
+    ,
+	{
+        "name": "Unitcode comma",
+        "title": "UC(,)",
+        "shortName": "COMMA"
+    }  
+     ],
     "layouts": {
         "keymap": [
             [{ "x": 2 }, "0,2", "0,3", { "x": 5.25 }, "5,3", "5,2"],
